@@ -1,0 +1,21 @@
+{
+  "name": "Firefox OS Template",
+  "description": "Firefox OS Template - Hello World",
+  "permissions": {
+    "settings": { "access": "readonly" }
+  },
+  "launch_path": "/index.html",
+  "developer": {
+    "name": "Guido Garcia"
+  },
+  "locales": {
+    "en-US": {
+      "name": "Template",
+      "description": "Template App"
+    }
+  },
+  "default_locale": "en-US",
+  "icons": {
+    "60": "/style/icons/main.png"
+  }
+}
