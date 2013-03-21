@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Hello World</title>
+
+    <!-- Shared styles (Firefox OS building blocks) -->
+    <link rel="stylesheet" type="text/css" href="shared/style/headers.css">
+    <link rel="stylesheet" type="text/css" href="shared/style/status.css">
+
+    <!-- Localization -->
+    <link rel="resource" type="application/l10n" href="locales/locales.ini">
+    <script type="application/javascript" src="shared/js/l10n.js"></script>
+
+    <!-- Specific styles -->
+    <link rel="stylesheet" type="text/css" href="style/template.css">
+
+    <!-- Specific code -->
+    <script defer type="application/javascript" src="js/template-ui.js"></script>
+  </head>
+
+  <body>
+    <section id="main-view" class="view" role="region" data-page-position="viewport">
+      <header>
+        <menu type="toolbar">
+          <a href="#" id="settings-open">
+            <span class="icon icon-settings" data-l10n-id="settings">
+              Settings
+            </span>
+          </a>
+        </menu>
+        <h1 data-l10n-id="app-title">Hello World</h1>
+      </header>
+    
+      <section role="status">
+        <p>This is the main view</p>
+      </section>
+    </section>
+
+    <section id="settings-view" class="view" role="region" data-page-position="bottom">
+      <header>
+        <menu type="toolbar">
+          <button id="settings-done" data-l10n-id="done">Done</button>
+        </menu>
+        <h1 data-l10n-id="settings">Settings</h1>
+      </header>
+
+      <section role="status">
+        <p>These are the settings</p>
+      </section>
+    </section>
+  </body>
+</html>
