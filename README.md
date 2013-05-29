@@ -8,10 +8,10 @@ Free hosting for my own Firefox OS using github pages
 
 Follow these simple steps:
 
-1.- Fork this project
+1.- Fork this project into username/username.github.com
 2.- Clone it
 
-git clone https://github.com/user/repo.git
+git clone https://github.com/username/username.github.com.git
 
 3.- Create a branch
 
